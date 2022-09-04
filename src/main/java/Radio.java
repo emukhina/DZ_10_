@@ -21,23 +21,25 @@ public class Radio {
         currentStation = newCurrentStation;
     }
 
-    public void getNextStation(int newCurrentStation) {
-        if (maxStation <= newCurrentStation) {
-            newCurrentStation = minStation;
+    public void getNextStation() {
+        if (currentStation == maxStation) {
+            currentStation = minStation;
+            return;
         } else {
-            setCurrentStation(newCurrentStation = newCurrentStation + 1);
+            currentStation = currentStation + 1;
         }
-        currentStation = newCurrentStation;
     }
 
-    public void getPreviosStation(int newCurrentStation) {
-        if (minStation >= newCurrentStation) {
-            newCurrentStation = maxStation;
-        } else {
-            setCurrentStation(newCurrentStation = newCurrentStation - 1);
+    public int getPreviosStation() {
+        if (currentStation == minStation) {
+            currentStation = maxStation;
         }
-        currentStation = newCurrentStation;
+        else {
+            currentStation = currentStation - 1;
+        }
+        return currentStation;
     }
+
 
     public int getCurrentVolume() {
         return currentVolume;
