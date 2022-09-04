@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 public class RadioTest {
         Radio radioman = new Radio();
+        Radio radioman1 = new Radio(10);
 
         @Test
         public void shouldSetStation() {
