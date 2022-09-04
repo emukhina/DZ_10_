@@ -54,22 +54,21 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.shouldIncreaseVolume">
+  <component name="RunManager" selected="JUnit.RadioTest">
+    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DZ_10.1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RadioTest.currentStationLessThanMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DZ_10.1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
       <option name="METHOD_NAME" value="currentStationLessThanMax" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.currentStationMoreThanMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DZ_10.1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="currentStationMoreThanMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest" />
         <item itemvalue="JUnit.RadioTest.shouldIncreaseVolume" />
         <item itemvalue="JUnit.RadioTest.prevStation" />
         <item itemvalue="JUnit.RadioTest.nextStation" />
         <item itemvalue="JUnit.RadioTest.currentStationLessThanMax" />
-        <item itemvalue="JUnit.RadioTest.currentStationMoreThanMax" />
       </list>
     </recent_temporary>
   </component>
